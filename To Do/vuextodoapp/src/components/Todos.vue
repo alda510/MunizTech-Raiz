@@ -16,24 +16,11 @@
 </template>
 
 <script>
-import { mapGetters, mapActions } from 'vuex'
 export default {
     name: 'ToDos',
-    methods: {
-        ...mapActions([
-            'fetchTodos'
-        ])
-    },
-    computed: {
-        ...mapGetters([
-            'todos'
-        ])
-    },
-    created() {
-        this.fetchTodos()
-    }
-};
+}
 </script>
+
 <style scoped>
 
 </style>

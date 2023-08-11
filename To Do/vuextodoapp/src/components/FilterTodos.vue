@@ -1,14 +1,14 @@
 <template>
     <div>
         <div>
-            <h1>FiterTodos</h1>
+            <h1>FilterTodos</h1>
         </div>
     </div>    
 </template>
 
 <script>
 export default {
-    name: 'FiterTodos'
+    name: 'FilterTodos'
 }
 </script>
 
